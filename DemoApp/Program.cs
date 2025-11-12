@@ -3,11 +3,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Запитуємо ім'я користувача
         Console.Write("Введіть ваше ім'я: ");
-        string userName = Console.ReadLine();
+string userName = Console.ReadLine();
+Console.Write("Введіть ваш вік: ");
+int age = int.Parse(Console.ReadLine());
+Console.WriteLine($"Користувач: {userName}, Вік: {age}");
 
-        // Виводимо привітання
-        Console.WriteLine($"Вітаю {userName}!");
     }
 }
